@@ -13,12 +13,37 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
     }
-    public void profil(View view){
-        Intent intent=new Intent(MainActivity.this, ProfilActivity.class);
+
+    public void profil(View view) {
+        Intent intent = new Intent(MainActivity.this, ProfilActivity.class);
         startActivity(intent);
     }
-    public void tugas(View view){
-        Intent intent=new Intent(MainActivity.this, TugasActivity.class);
+
+    public void tugas(View view) {
+        Intent intent = new Intent(MainActivity.this, TugasActivity.class);
+        startActivity(intent);
+    }
+
+    public void absensi(View view) {
+        Intent intent = new Intent(MainActivity.this, AbsenActivity.class);
+        startActivity(intent);
+    }
+
+    public void eskul(View view) {
+        Intent intent = new Intent(MainActivity.this, EskulActivity.class);
+        startActivity(intent);
+    }
+
+    public void prestasi(View view) {
+        Intent intent = new Intent(MainActivity.this, PrestasiActivity.class);
+        startActivity(intent);
+    }
+    public void informasi(View view) {
+        Intent intent = new Intent(MainActivity.this, InformasiActivity.class);
+        startActivity(intent);
+    }
+    public void exit(View view) {
+        Intent intent = new Intent(MainActivity.this, Exitactivity.class);
         startActivity(intent);
     }
 }

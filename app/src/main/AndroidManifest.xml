@@ -9,7 +9,12 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.SMPN2SURADADI">
-        <activity android:name=".TugasActivity"></activity>
+        <activity android:name=".Exitactivity"></activity>
+        <activity android:name=".InformasiActivity" />
+        <activity android:name=".PrestasiActivity" />
+        <activity android:name=".EskulActivity" />
+        <activity android:name=".AbsenActivity" />
+        <activity android:name=".TugasActivity" />
         <activity android:name=".ProfilActivity" />
         <activity android:name=".MainActivity">
             <intent-filter>

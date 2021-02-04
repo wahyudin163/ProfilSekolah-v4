@@ -79,7 +79,8 @@
                     android:layout_height="60dp"
                     android:layout_marginTop="40dp"
                     android:src="@drawable/absensi"
-                    android:background="@color/white">
+                    android:background="@color/white"
+                    android:onClick="absensi">
                 </ImageView>
                 <TextView
                     android:layout_width="wrap_content"
@@ -95,7 +96,8 @@
                     android:layout_height="60dp"
                     android:layout_marginTop="40dp"
                     android:src="@drawable/prestasi"
-                    android:background="@color/white">
+                    android:background="@color/white"
+                    android:onClick="prestasi">
                 </ImageView>
                 <TextView
                     android:layout_width="wrap_content"
@@ -110,7 +112,8 @@
                     android:layout_height="60dp"
                     android:layout_marginTop="40dp"
                     android:src="@drawable/exit"
-                    android:background="@color/white">
+                    android:background="@color/white"
+                    android:onClick="exit">
                 </ImageView>
                 <TextView
                     android:layout_width="wrap_content"
@@ -148,7 +151,8 @@
                     android:layout_height="60dp"
                     android:layout_marginTop="40dp"
                     android:src="@drawable/eskul"
-                    android:background="@color/white">
+                    android:background="@color/white"
+                    android:onClick="eskul">
                 </ImageView>
                 <TextView
                     android:layout_width="wrap_content"
@@ -163,7 +167,8 @@
                     android:layout_height="60dp"
                     android:layout_marginTop="40dp"
                     android:src="@drawable/informasi"
-                    android:background="@color/white">
+                    android:background="@color/white"
+                    android:onClick="informasi">
                 </ImageView>
                 <TextView
                     android:layout_width="wrap_content"
@@ -173,6 +178,7 @@
                     android:textStyle="bold"
                     android:textColor="@color/black">
                 </TextView>
+
             </LinearLayout>
         </LinearLayout>
     </LinearLayout>
