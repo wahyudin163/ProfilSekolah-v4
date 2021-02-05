@@ -8,7 +8,7 @@
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="200dp"
-        android:background="#9f5f9f"
+        android:background="#ff7f00"
         >
     </ImageView>
     <LinearLayout
@@ -24,13 +24,13 @@
             <ImageView
                 android:layout_width="60dp"
                 android:layout_height="60dp"
-                android:src="@drawable/absensi"
+                android:src="@drawable/logosmp8"
                 >
             </ImageView>
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="SMPN 2 Suradadi"
+                android:text="SMPN 8 TEGAL"
                 android:textStyle="bold"
                 android:textColor="@color/white"
                 android:textSize="35dp"
