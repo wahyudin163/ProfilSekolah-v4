@@ -4,14 +4,37 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ProfilActivity">
+    tools:context=".ProfilActivity" >
 
     <TextView
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="ini profil"
         android:gravity="center"
-        android:textAlignment="center"
-        />
+        android:text="ini profil"
+        android:textAlignment="center" />
+
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="204dp"
+        android:layout_height="183dp"
+        app:srcCompat="@drawable/profil"
+        tools:layout_editor_absoluteX="18dp"
+        tools:layout_editor_absoluteY="44dp" />
+
+    <ImageView
+        android:id="@+id/imageView12"
+        android:layout_width="139dp"
+        android:layout_height="150dp"
+        app:srcCompat="@drawable/profil"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="274dp" />
+
+    <ImageView
+        android:id="@+id/imageView13"
+        android:layout_width="204dp"
+        android:layout_height="183dp"
+        app:srcCompat="@drawable/profil"
+        tools:layout_editor_absoluteX="176dp"
+        tools:layout_editor_absoluteY="274dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>
