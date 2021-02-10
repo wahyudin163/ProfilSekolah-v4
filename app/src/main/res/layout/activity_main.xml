@@ -22,8 +22,8 @@
             android:orientation="vertical"
             android:gravity="center">
             <ImageView
-                android:layout_width="60dp"
-                android:layout_height="60dp"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
                 android:src="@drawable/logosmp8"
                 >
             </ImageView>
@@ -59,8 +59,8 @@
                 android:layout_height="match_parent"
                 android:gravity="center_horizontal">
                 <ImageView
-                    android:layout_width="60dp"
-                    android:layout_height="60dp"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
                     android:src="@drawable/profil"
                     android:background="@color/white"
                     android:onClick="profil"
@@ -75,8 +75,9 @@
                     android:textColor="@color/black">
                 </TextView>
                 <ImageView
-                    android:layout_width="60dp"
-                    android:layout_height="60dp"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+
                     android:layout_marginTop="40dp"
                     android:src="@drawable/absensi"
                     android:background="@color/white"
@@ -92,8 +93,8 @@
                 </TextView>
 
                 <ImageView
-                    android:layout_width="60dp"
-                    android:layout_height="60dp"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
                     android:layout_marginTop="40dp"
                     android:src="@drawable/prestasi"
                     android:background="@color/white"
@@ -107,22 +108,6 @@
                     android:textStyle="bold"
                     android:textColor="@color/black">
                 </TextView>
-                <ImageView
-                    android:layout_width="60dp"
-                    android:layout_height="60dp"
-                    android:layout_marginTop="40dp"
-                    android:src="@drawable/exit"
-                    android:background="@color/white"
-                    android:onClick="exit">
-                </ImageView>
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Exit"
-                    android:textSize="20dp"
-                    android:textStyle="bold"
-                    android:textColor="@color/black">
-                </TextView>
 
             </LinearLayout>
             <LinearLayout
@@ -132,8 +117,8 @@
                 android:layout_height="match_parent"
                 android:gravity="center_horizontal">
                 <ImageView
-                    android:layout_width="60dp"
-                    android:layout_height="60dp"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
                     android:src="@drawable/tugassekolah"
                     android:background="@color/white"
                     android:onClick="tugas">
@@ -147,8 +132,8 @@
                     android:textColor="@color/black">
                 </TextView>
                 <ImageView
-                    android:layout_width="60dp"
-                    android:layout_height="60dp"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
                     android:layout_marginTop="40dp"
                     android:src="@drawable/eskul"
                     android:background="@color/white"
@@ -163,8 +148,8 @@
                     android:textColor="@color/black">
                 </TextView>
                 <ImageView
-                    android:layout_width="60dp"
-                    android:layout_height="60dp"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
                     android:layout_marginTop="40dp"
                     android:src="@drawable/informasi"
                     android:background="@color/white"
