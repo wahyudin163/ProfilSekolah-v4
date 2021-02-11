@@ -5,166 +5,175 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity">
-    <ImageView
-        android:layout_width="match_parent"
-        android:layout_height="200dp"
-        android:background="#ff7f00"
-        >
-    </ImageView>
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:orientation="vertical">
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="0dp"
-            android:layout_weight="1"
-            android:orientation="vertical"
-            android:gravity="center">
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
             <ImageView
-                android:layout_width="80dp"
-                android:layout_height="80dp"
-                android:src="@drawable/logosmp8"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:background="#f97f00"
                 >
             </ImageView>
-            <TextView
+            <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="SMPN 8 TEGAL"
-                android:textStyle="bold"
-                android:textColor="@color/white"
-                android:textSize="35dp"
-                android:layout_gravity="center_horizontal"
-                android:gravity="center">
-
-            </TextView>
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Bersama Kita Bangun Bangsa"
-                android:textStyle="bold"
-                android:textColor="@color/white"
-                android:textSize="17dp">
-            </TextView>
-        </LinearLayout>
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="0dp"
-            android:layout_weight="2"
-            android:orientation="horizontal">
-            <LinearLayout
-                android:layout_weight="1"
-                android:layout_width="0dp"
-                android:orientation="vertical"
                 android:layout_height="match_parent"
-                android:gravity="center_horizontal">
-                <ImageView
-                    android:layout_width="80dp"
-                    android:layout_height="80dp"
-                    android:src="@drawable/profil"
-                    android:background="@color/white"
-                    android:onClick="profil"
-                    >
-                </ImageView>
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Profil"
-                    android:textSize="20dp"
-                    android:textStyle="bold"
-                    android:textColor="@color/black">
-                </TextView>
-                <ImageView
-                    android:layout_width="80dp"
-                    android:layout_height="80dp"
+                android:orientation="vertical">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:gravity="center">
+                    <ImageView
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:src="@drawable/logosmp8"
+                        >
+                    </ImageView>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="SMPN 8 TEGAL"
+                        android:textStyle="bold"
+                        android:textColor="@color/white"
+                        android:textSize="35dp"
+                        android:layout_gravity="center_horizontal"
+                        android:gravity="center">
 
-                    android:layout_marginTop="40dp"
-                    android:src="@drawable/absensi"
-                    android:background="@color/white"
-                    android:onClick="absensi">
-                </ImageView>
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Absensi"
-                    android:textSize="20dp"
-                    android:textStyle="bold"
-                    android:textColor="@color/black">
-                </TextView>
+                    </TextView>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Jl Proklamasi No.14,Tegalsari"
+                        android:textStyle="bold"
+                        android:textColor="@color/white"
+                        android:textSize="17dp">
+                    </TextView>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="2"
+                    android:orientation="horizontal">
 
-                <ImageView
-                    android:layout_width="80dp"
-                    android:layout_height="80dp"
-                    android:layout_marginTop="40dp"
-                    android:src="@drawable/prestasi"
-                    android:background="@color/white"
-                    android:onClick="prestasi">
-                </ImageView>
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Prestasi"
-                    android:textSize="20dp"
-                    android:textStyle="bold"
-                    android:textColor="@color/black">
-                </TextView>
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="455dp"
+                        android:layout_weight="1"
+                        android:gravity="center_horizontal"
+                        android:orientation="vertical">
 
+                        <ImageView
+                            android:layout_width="80dp"
+                            android:layout_height="80dp"
+                            android:background="@color/white"
+                            android:onClick="profil"
+                            android:src="@drawable/profil"></ImageView>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Profil"
+                            android:textColor="@color/black"
+                            android:textSize="20dp"
+                            android:textStyle="bold"></TextView>
+
+                        <ImageView
+                            android:layout_width="80dp"
+                            android:layout_height="80dp"
+
+                            android:layout_marginTop="40dp"
+                            android:background="@color/white"
+                            android:onClick="absensi"
+                            android:src="@drawable/absensi"></ImageView>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Absensi"
+                            android:textColor="@color/black"
+                            android:textSize="20dp"
+                            android:textStyle="bold"></TextView>
+
+                        <ImageView
+                            android:layout_width="80dp"
+                            android:layout_height="80dp"
+                            android:layout_marginTop="40dp"
+                            android:background="@color/white"
+                            android:onClick="prestasi"
+                            android:src="@drawable/prestasi"></ImageView>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Prestasi"
+                            android:textColor="@color/black"
+                            android:textSize="20dp"
+                            android:textStyle="bold"></TextView>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="436dp"
+                        android:layout_weight="1"
+                        android:gravity="center_horizontal"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="80dp"
+                            android:layout_height="80dp"
+                            android:background="@color/white"
+                            android:onClick="tugas"
+                            android:src="@drawable/tugassekolah"></ImageView>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Tugas sekolah"
+                            android:textColor="@color/black"
+                            android:textSize="20dp"
+                            android:textStyle="bold"></TextView>
+
+                        <ImageView
+                            android:layout_width="80dp"
+                            android:layout_height="80dp"
+                            android:layout_marginTop="40dp"
+                            android:background="@color/white"
+                            android:onClick="eskul"
+                            android:src="@drawable/eskul"></ImageView>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Ekstrakulikuler"
+                            android:textColor="@color/black"
+                            android:textSize="20dp"
+                            android:textStyle="bold"></TextView>
+
+                        <ImageView
+                            android:layout_width="80dp"
+                            android:layout_height="80dp"
+                            android:layout_marginTop="40dp"
+                            android:background="@color/white"
+                            android:onClick="informasi"
+                            android:src="@drawable/informasi"></ImageView>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Informasi"
+                            android:textColor="@color/black"
+                            android:textSize="20dp"
+                            android:textStyle="bold"></TextView>
+
+                    </LinearLayout>
+                </LinearLayout>
             </LinearLayout>
-            <LinearLayout
-                android:layout_weight="1"
-                android:layout_width="0dp"
-                android:orientation="vertical"
-                android:layout_height="match_parent"
-                android:gravity="center_horizontal">
-                <ImageView
-                    android:layout_width="80dp"
-                    android:layout_height="80dp"
-                    android:src="@drawable/tugassekolah"
-                    android:background="@color/white"
-                    android:onClick="tugas">
-                </ImageView>
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Tugas sekolah"
-                    android:textSize="20dp"
-                    android:textStyle="bold"
-                    android:textColor="@color/black">
-                </TextView>
-                <ImageView
-                    android:layout_width="80dp"
-                    android:layout_height="80dp"
-                    android:layout_marginTop="40dp"
-                    android:src="@drawable/eskul"
-                    android:background="@color/white"
-                    android:onClick="eskul">
-                </ImageView>
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Ekstrakulikuler"
-                    android:textSize="20dp"
-                    android:textStyle="bold"
-                    android:textColor="@color/black">
-                </TextView>
-                <ImageView
-                    android:layout_width="80dp"
-                    android:layout_height="80dp"
-                    android:layout_marginTop="40dp"
-                    android:src="@drawable/informasi"
-                    android:background="@color/white"
-                    android:onClick="informasi">
-                </ImageView>
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Informasi"
-                    android:textSize="20dp"
-                    android:textStyle="bold"
-                    android:textColor="@color/black">
-                </TextView>
-
-            </LinearLayout>
-        </LinearLayout>
-    </LinearLayout>
+        </RelativeLayout>
+    </ScrollView>
 </RelativeLayout>
