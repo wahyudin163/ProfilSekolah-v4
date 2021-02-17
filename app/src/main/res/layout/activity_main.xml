@@ -8,7 +8,7 @@
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="200dp"
-        android:background="#ff7f00"
+        android:background="@drawable/kelas"
         >
     </ImageView>
     <LinearLayout
@@ -61,10 +61,9 @@
                 <ImageView
                     android:layout_width="80dp"
                     android:layout_height="80dp"
-                    android:src="@drawable/profil"
+                    android:src="@drawable/logoprofil"
                     android:background="@color/white"
-                    android:onClick="profil"
-                    >
+                    android:onClick="profil">
                 </ImageView>
                 <TextView
                     android:layout_width="wrap_content"
@@ -119,14 +118,14 @@
                 <ImageView
                     android:layout_width="80dp"
                     android:layout_height="80dp"
-                    android:src="@drawable/tugassekolah"
+                    android:src="@drawable/agenda"
                     android:background="@color/white"
                     android:onClick="tugas">
                 </ImageView>
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Tugas sekolah"
+                    android:text="Acara"
                     android:textSize="20dp"
                     android:textStyle="bold"
                     android:textColor="@color/black">
