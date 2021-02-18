@@ -1,22 +1,89 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".EskulActivity">
 
-    <TextView
-        android:id="@+id/textView3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Eskul smp 8"
-        android:gravity="center"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.423"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.075" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:background="#03a9f4"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="EKSTRAKURIKULER"
+                android:textColor="@color/black"
+                android:textSize="35dp"
+                android:textStyle="bold"></TextView>
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/imageView11"
+            android:layout_width="153dp"
+            android:layout_height="106dp"
+            app:srcCompat="@drawable/futsal" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="181dp"
+            android:layout_height="wrap_content"
+            android:text="Futsal"
+            android:textStyle="bold"
+            android:paddingLeft="10dp"/>
+
+        <ImageView
+            android:id="@+id/imageView12"
+            android:layout_width="154dp"
+            android:layout_height="103dp"
+            app:srcCompat="@drawable/voli" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="168dp"
+            android:layout_height="22dp"
+            android:text="Volly"
+            android:textStyle="bold"
+            android:paddingLeft="10dp"/>
+
+        <ImageView
+            android:id="@+id/imageView13"
+            android:layout_width="156dp"
+            android:layout_height="102dp"
+            app:srcCompat="@drawable/basket" />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="178dp"
+            android:layout_height="26dp"
+            android:text="Basket"
+            android:textStyle="bold"
+            android:paddingLeft="10dp"/>
+
+        <ImageView
+            android:id="@+id/imageView14"
+            android:layout_width="158dp"
+            android:layout_height="107dp"
+            app:srcCompat="@drawable/hadroh" />
+
+        <TextView
+            android:id="@+id/textView12"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Hadroh"
+            android:textStyle="bold"
+            android:paddingLeft="10dp"/>
+
+
+    </LinearLayout>
+</RelativeLayout>

@@ -1,97 +1,78 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".AgendaActivity">
 
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="194dp"
-        android:layout_height="68dp"
-        android:text="Acara "
-        android:textSize="50dp"
-        android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.01" />
 
-    <TextView
-        android:id="@+id/textView17"
-        android:layout_width="99dp"
-        android:layout_height="34dp"
-        android:text="Adiwiyata"
-        android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.131"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.13" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
 
-    <TextView
-        android:id="@+id/textView19"
-        android:layout_width="100dp"
-        android:layout_height="37dp"
-        android:text="Kepramukaan"
-        android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.086"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.425" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:background="#03A9F4">
 
-    <TextView
-        android:id="@+id/textView16"
-        android:layout_width="113dp"
-        android:layout_height="40dp"
-        android:text="Jum'at Bersih"
-        android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.09"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.733" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="AGENDA"
+                android:textColor="@color/black"
+                android:textSize="50dp"
+                android:textStyle="bold"/>
 
-    <ImageView
-        android:id="@+id/imageView8"
-        android:layout_width="148dp"
-        android:layout_height="100dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.004"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.19"
-        app:srcCompat="@drawable/adiwiyata" />
+        </LinearLayout>
 
-    <ImageView
-        android:id="@+id/imageView9"
-        android:layout_width="155dp"
-        android:layout_height="107dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.876"
-        app:srcCompat="@drawable/jumatbersih" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="480dp"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:background="#0003A9F4">
+            <LinearLayout
+                android:layout_width="410dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:orientation="vertical"
+                android:background="@color/white">
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="230dp"
+                    android:src="@drawable/upacara"
+                    android:layout_marginTop="-15dp">
+                </ImageView>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="UPACARA"
+                    android:textSize="50dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/black">
+                </TextView>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="Setiap hari Senin, di setiap sekolah-sekolah dilaksanakan kegiatan Upacara Bendera pada pagi hari sebelum Kegiatan Belajar Mengajar (KBM) dimulai. Termasuk di SMPN 8 TEGAL. Upacara Bendera sudah menjadi kegiatan rutin yang dilaksanakan setiap hari Senin.Upaca Bendera hari Senin mempunyai manfaat yang sangat baik bagi upaya penumbuhan budi pekerti dan karakter bangsa bagi peserta didik, terutama nilai-nilai kebangsaan dan kebhinekaan. Nilai-nilai tersebut terkandung di dalam setiap urutan kegiatan/tata upacara bendera. "
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:textStyle="bold">
 
-    <ImageView
-        android:id="@+id/imageView10"
-        android:layout_width="159dp"
-        android:layout_height="99dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.525"
-        app:srcCompat="@drawable/kepramukaan" />
-</androidx.constraintlayout.widget.ConstraintLayout>
+                </TextView>
+
+            </LinearLayout>
+
+
+
+
+
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

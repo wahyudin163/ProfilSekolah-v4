@@ -14,7 +14,7 @@
         <activity android:name=".InformasiActivity" />
         <activity android:name=".PrestasiActivity" />
         <activity android:name=".EskulActivity" />
-        <activity android:name=".AbsenActivity" />
+        <activity android:name=".TugaskelasActivity" />
         <activity android:name=".TugasActivity" />
         <activity android:name=".MainActivity">
             <intent-filter>

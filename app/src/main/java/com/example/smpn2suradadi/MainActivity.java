@@ -25,7 +25,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void absensi(View view) {
-        Intent intent = new Intent(MainActivity.this, AbsenActivity.class);
+        Intent intent = new Intent(MainActivity.this, TugaskelasActivity.class);
         startActivity(intent);
     }
 

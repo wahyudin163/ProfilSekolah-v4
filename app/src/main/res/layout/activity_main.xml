@@ -78,14 +78,14 @@
                     android:layout_height="80dp"
 
                     android:layout_marginTop="40dp"
-                    android:src="@drawable/absensi"
+                    android:src="@drawable/tugassekolah"
                     android:background="@color/white"
-                    android:onClick="absensi">
+                    android:onClick="tugas">
                 </ImageView>
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Absensi"
+                    android:text="Tugas Kelas"
                     android:textSize="20dp"
                     android:textStyle="bold"
                     android:textColor="@color/black">
@@ -125,7 +125,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Acara"
+                    android:text="Agenda"
                     android:textSize="20dp"
                     android:textStyle="bold"
                     android:textColor="@color/black">
