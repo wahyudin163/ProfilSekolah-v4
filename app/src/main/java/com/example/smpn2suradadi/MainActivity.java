@@ -24,10 +24,7 @@ public class MainActivity extends AppCompatActivity {
         startActivity(intent);
     }
 
-    public void absensi(View view) {
-        Intent intent = new Intent(MainActivity.this, TugaskelasActivity.class);
-        startActivity(intent);
-    }
+
 
     public void eskul(View view) {
         Intent intent = new Intent(MainActivity.this, EskulActivity.class);
@@ -42,8 +39,5 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(MainActivity.this, InformasiActivity.class);
         startActivity(intent);
     }
-    public void exit(View view) {
-        Intent intent = new Intent(MainActivity.this, Exitactivity.class);
-        startActivity(intent);
-    }
+
 }

@@ -3,13 +3,16 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/ProfilsekolahSMPN2SURADADI/SMPN_8TEGAL1/app/src/main/res/layout/activity_absen.xml" value="0.1" />
         <entry key="..\:/ProfilsekolahSMPN2SURADADI/SMPN_8TEGAL1/app/src/main/res/layout/activity_agenda.xml" value="0.20416666666666666" />
-        <entry key="..\:/ProfilsekolahSMPN2SURADADI/SMPN_8TEGAL1/app/src/main/res/layout/activity_eskul.xml" value="0.22505307855626328" />
-        <entry key="..\:/ProfilsekolahSMPN2SURADADI/SMPN_8TEGAL1/app/src/main/res/layout/activity_informasi.xml" value="0.1" />
+        <entry key="..\:/ProfilsekolahSMPN2SURADADI/SMPN_8TEGAL1/app/src/main/res/layout/activity_eskul.xml" value="0.3936842105263158" />
+        <entry key="..\:/ProfilsekolahSMPN2SURADADI/SMPN_8TEGAL1/app/src/main/res/layout/activity_exitactivity.xml" value="0.1" />
+        <entry key="..\:/ProfilsekolahSMPN2SURADADI/SMPN_8TEGAL1/app/src/main/res/layout/activity_informasi.xml" value="0.20416666666666666" />
         <entry key="..\:/ProfilsekolahSMPN2SURADADI/SMPN_8TEGAL1/app/src/main/res/layout/activity_main.xml" value="0.20416666666666666" />
         <entry key="..\:/ProfilsekolahSMPN2SURADADI/SMPN_8TEGAL1/app/src/main/res/layout/activity_main2.xml" value="0.20416666666666666" />
-        <entry key="..\:/ProfilsekolahSMPN2SURADADI/SMPN_8TEGAL1/app/src/main/res/layout/activity_profil.xml" value="0.19647822057460612" />
-        <entry key="..\:/ProfilsekolahSMPN2SURADADI/SMPN_8TEGAL1/app/src/main/res/layout/activity_tugas.xml" value="0.20416666666666666" />
+        <entry key="..\:/ProfilsekolahSMPN2SURADADI/SMPN_8TEGAL1/app/src/main/res/layout/activity_prestasi.xml" value="0.18" />
+        <entry key="..\:/ProfilsekolahSMPN2SURADADI/SMPN_8TEGAL1/app/src/main/res/layout/activity_profil.xml" value="0.20416666666666666" />
+        <entry key="..\:/ProfilsekolahSMPN2SURADADI/SMPN_8TEGAL1/app/src/main/res/layout/activity_tugas.xml" value="0.1" />
       </map>
     </option>
   </component>
