@@ -9,14 +9,15 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:orientation="vertical">
-
+        android:orientation="vertical"
+        >
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="90dp"
             android:background="#03a9f4"
             android:gravity="center"
-            android:orientation="vertical">
+            android:orientation="vertical"
+            >
 
             <TextView
                 android:layout_width="match_parent"
@@ -27,63 +28,136 @@
                 android:textSize="35dp"
                 android:textStyle="bold"></TextView>
         </LinearLayout>
-
-        <ImageView
-            android:id="@+id/imageView11"
-            android:layout_width="153dp"
-            android:layout_height="106dp"
-            app:srcCompat="@drawable/futsal" />
-
-        <TextView
-            android:id="@+id/textView3"
-            android:layout_width="181dp"
-            android:layout_height="wrap_content"
-            android:text="Futsal"
-            android:textStyle="bold"
-            android:paddingLeft="10dp"/>
-
-        <ImageView
-            android:id="@+id/imageView12"
-            android:layout_width="154dp"
-            android:layout_height="103dp"
-            app:srcCompat="@drawable/voli" />
-
-        <TextView
-            android:id="@+id/textView"
-            android:layout_width="168dp"
-            android:layout_height="22dp"
-            android:text="Volly"
-            android:textStyle="bold"
-            android:paddingLeft="10dp"/>
-
-        <ImageView
-            android:id="@+id/imageView13"
-            android:layout_width="156dp"
-            android:layout_height="102dp"
-            app:srcCompat="@drawable/basket" />
-
-        <TextView
-            android:id="@+id/textView8"
-            android:layout_width="178dp"
-            android:layout_height="26dp"
-            android:text="Basket"
-            android:textStyle="bold"
-            android:paddingLeft="10dp"/>
-
-        <ImageView
-            android:id="@+id/imageView14"
-            android:layout_width="158dp"
-            android:layout_height="107dp"
-            app:srcCompat="@drawable/hadroh" />
-
-        <TextView
-            android:id="@+id/textView12"
+        <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Hadroh"
-            android:textStyle="bold"
-            android:paddingLeft="10dp"/>
+            android:layout_height="match_parent"
+            android:weightSum="2">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:padding="15dp">
 
+            <com.zolad.zoominimageview.ZoomInImageView
+                android:layout_width="154dp"
+                android:layout_height="103dp"
+                android:src="@drawable/futsal"/>
+
+            <TextView
+
+                android:layout_width="181dp"
+                android:layout_height="wrap_content"
+                android:text="Futsal"
+                android:textStyle="bold"
+                android:paddingLeft="10dp"/>
+
+            <ImageView
+
+                android:layout_width="154dp"
+                android:layout_height="103dp"
+                app:srcCompat="@drawable/voli" />
+
+            <TextView
+
+                android:layout_width="168dp"
+                android:layout_height="22dp"
+                android:text="Volly"
+                android:textStyle="bold"
+                android:paddingLeft="10dp"/>
+
+            <ImageView
+
+                android:layout_width="156dp"
+                android:layout_height="102dp"
+                app:srcCompat="@drawable/basket" />
+
+            <TextView
+
+                android:layout_width="178dp"
+                android:layout_height="26dp"
+                android:text="Basket"
+                android:textStyle="bold"
+                android:paddingLeft="10dp"/>
+
+            <ImageView
+
+                android:layout_width="158dp"
+                android:layout_height="107dp"
+                app:srcCompat="@drawable/hadroh" />
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Hadroh"
+                android:textStyle="bold"
+                android:paddingLeft="10dp"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:padding="15dp">
+
+            <com.zolad.zoominimageview.ZoomInImageView
+                android:layout_width="154dp"
+                android:layout_height="103dp"
+                android:src="@drawable/futsal"/>
+
+            <TextView
+                android:layout_width="181dp"
+                android:layout_height="wrap_content"
+                android:text="Futsal"
+                android:textStyle="bold"
+                android:paddingLeft="10dp"/>
+
+            <ImageView
+
+                android:layout_width="154dp"
+                android:layout_height="103dp"
+                app:srcCompat="@drawable/voli" />
+
+            <TextView
+
+                android:layout_width="168dp"
+                android:layout_height="22dp"
+                android:text="Volly"
+                android:textStyle="bold"
+                android:paddingLeft="10dp"/>
+
+            <ImageView
+
+                android:layout_width="156dp"
+                android:layout_height="102dp"
+                app:srcCompat="@drawable/basket" />
+
+            <TextView
+
+                android:layout_width="178dp"
+                android:layout_height="26dp"
+                android:text="Basket"
+                android:textStyle="bold"
+                android:paddingLeft="10dp"/>
+
+            <ImageView
+
+                android:layout_width="158dp"
+                android:layout_height="107dp"
+                app:srcCompat="@drawable/hadroh" />
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Hadroh"
+                android:textStyle="bold"
+                android:paddingLeft="10dp"/>
+
+        </LinearLayout>
+        </LinearLayout>
 
     </LinearLayout>
 </RelativeLayout>

@@ -1,126 +1,74 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".InformasiActivity">
-
-    <ImageView
-        android:id="@+id/imageView4"
-        android:layout_width="310dp"
-        android:layout_height="174dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.343"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0"
-        app:srcCompat="@drawable/ruangkelas" />
-
-    <TextView
-        android:id="@+id/textView5"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Kontak Lengkap:"
-        android:textSize="30dp"
-        android:textStyle="bold"
-        android:paddingLeft="10dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.274" />
-
-    <TextView
-        android:id="@+id/textView13"
-        android:layout_width="199dp"
-        android:layout_height="28dp"
-        android:autoLink="map"
-        android:paddingLeft="10dp"
-        android:text="Alamat Sekolah:"
-        android:textSize="25dp"
-        android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.06"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.349" />
-
-    <TextView
-        android:id="@+id/textView10"
-        android:layout_width="386dp"
-        android:layout_height="52dp"
-        android:layout_marginStart="12dp"
-        android:layout_marginLeft="12dp"
-        android:autoLink="map"
-        android:paddingLeft="10dp"
-        android:text="Jl.Proklamasi No.14,Tegalsari,Kec.Tegal Bar.,Kota Tegal,Jawa Tengah 52111"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.421" />
-
-    <TextView
-        android:id="@+id/textView11"
-        android:layout_width="105dp"
-        android:layout_height="34dp"
-        android:paddingLeft="10dp"
-        android:text="Telp:"
-        android:textSize="20dp"
-        android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.052"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.499" />
-
-    <TextView
-        android:id="@+id/textView9"
-        android:layout_width="155dp"
-        android:layout_height="51dp"
-        android:autoLink="phone"
-        android:paddingLeft="10dp"
-        android:text="0283351246"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.05"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.561" />
-
-    <TextView
-        android:id="@+id/textView14"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:paddingLeft="10dp"
-        android:text="Email:"
-        android:textSize="20dp"
-        android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.037"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.615" />
-
-    <TextView
-        android:id="@+id/textView15"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:autoLink="email"
-        android:paddingLeft="10dp"
-        android:text="smpn8kotategal@gmail.com"
-        android:textSize="20dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.091"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.653" />
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="280dp"
+        android:fitsSystemWindows="true"
+        android:theme="@style/Theme.Design">
+        <com.google.android.material.appbar.CollapsingToolbarLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fitsSystemWindows="true"
+            app:contentScrim="?attr/colorPrimary"
+            app:layout_scrollFlags="scroll|snap|exitUntilCollapsed"
+            app:title="ini collap"
+            android:id="@+id/collapsing_toolbar">
 
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+            <ImageView
+                android:layout_width="320dp"
+                android:layout_height="200dp"
+                android:src="@drawable/futsal"
+                android:scaleType="centerCrop"
+                android:layout_gravity="center|end"
+                android:layout_marginBottom="15dp"
+                app:layout_collapseMode="parallax"/>
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/toolar"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                app:layout_collapseMode="pin"/>
+
+        </com.google.android.material.appbar.CollapsingToolbarLayout>
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior">
+
+<!--       awal isi-->
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="15dp"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/teal_200"
+                android:text="Variabel $USER akan mengambil nilai pengguna yang saat ini Anda masuki saat Anda menekan Enter. Dengan melakukan ini, user biasa kita sekarang memiliki subdirektori public_html di mana kita akan menyimpan konten kita. Kita juga harus memodifikasi izin kita sedikit untuk memastikan bahwa akses baca diizinkan ke direktori web umum dan semua file dan folder yang dikandungnya sehingga halaman dapat disajikan dengan benar, dengan menjalankan skript berikut ini Variabel $USER akan mengambil nilai pengguna yang saat ini Anda masuki saat Anda menekan Enter. Dengan melakukan ini, user biasa kita sekarang memiliki subdirektori public_html di mana kita akan menyimpan konten kita. Kita juga harus memodifikasi izin kita sedikit untuk memastikan bahwa akses baca diizinkan ke direktori web umum dan semua file dan folder yang dikandungnya sehingga halaman dapat disajikan dengan benar, dengan menjalankan skript berikut ini Variabel $USER akan mengambil nilai pengguna yang saat ini Anda masuki saat Anda menekan Enter. Dengan melakukan ini, user biasa kita sekarang memiliki subdirektori public_html di mana kita akan menyimpan konten kita. Kita juga harus memodifikasi izin kita sedikit untuk memastikan bahwa akses baca diizinkan ke direktori web umum dan semua file dan folder yang dikandungnya sehingga halaman dapat disajikan dengan benar, dengan menjalankan skript berikut ini Variabel $USER akan mengambil nilai pengguna yang saat ini Anda masuki saat Anda menekan Enter. Dengan melakukan ini, user biasa kita sekarang memiliki subdirektori public_html di mana kita akan menyimpan konten kita. Kita juga harus memodifikasi izin kita sedikit untuk memastikan bahwa akses baca diizinkan ke direktori web umum dan semua file dan folder yang dikandungnya sehingga halaman dapat disajikan dengan benar, dengan menjalankan skript berikut ini Variabel $USER akan mengambil nilai pengguna yang saat ini Anda masuki saat Anda menekan Enter. Dengan melakukan ini, user biasa kita sekarang memiliki subdirektori public_html di mana kita akan menyimpan konten kita. Kita juga harus memodifikasi izin kita sedikit untuk memastikan bahwa akses baca diizinkan ke direktori web umum dan semua file dan folder yang dikandungnya sehingga halaman dapat disajikan dengan benar, dengan menjalankan skript berikut ini Variabel $USER akan mengambil nilai pengguna yang saat ini Anda masuki saat Anda menekan Enter. Dengan melakukan ini, user biasa kita sekarang memiliki subdirektori public_html di mana kita akan menyimpan konten kita. Kita juga harus memodifikasi izin kita sedikit untuk memastikan bahwa akses baca diizinkan ke direktori web umum dan semua file dan folder yang dikandungnya sehingga halaman dapat disajikan dengan benar, dengan menjalankan skript berikut ini Variabel $USER akan mengambil nilai pengguna yang saat ini Anda masuki saat Anda menekan Enter. Dengan melakukan ini, user biasa kita sekarang memiliki subdirektori public_html di mana kita akan menyimpan konten kita. Kita juga harus memodifikasi izin kita sedikit untuk memastikan bahwa akses baca diizinkan ke direktori web umum dan semua file dan folder yang dikandungnya sehingga halaman dapat disajikan dengan benar, dengan menjalankan skript"
+                tools:ignore="MissingConstraints"
+                android:gravity="center_vertical"
+                />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+<!--        tutup isi-->
+    </androidx.core.widget.NestedScrollView>
+
+<!--    <com.google.android.material.floatingactionbutton.FloatingActionButton-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:baselineAlignBottom="false"-->
+<!--        android:clickable="true"-->
+<!--        android:src="@drawable/futsal"-->
+<!--        app:fabSize="normal"-->
+<!--        app:layout_anchor="@drawable/futsal"-->
+<!--        app:layout_anchorGravity="end|bottom"-->
+<!--        android:layout_marginRight="30dp"-->
+<!--        android:backgroundTint="#facf5a"/>-->
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
