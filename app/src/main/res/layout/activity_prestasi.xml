@@ -6,73 +6,26 @@
     android:layout_height="match_parent"
     tools:context=".PrestasiActivity">
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="90dp"
-        android:background="#ff00"
-        android:gravity="center"
-        android:orientation="vertical"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
-
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:gravity="center"
-            android:text="PRESTASI"
-            android:textColor="@color/black"
-            android:textSize="35dp"
-            android:textStyle="bold">
-
-        </TextView>
-    </LinearLayout>
-
-    <ImageView
-        android:id="@+id/imageView3"
-        android:layout_width="201dp"
-        android:layout_height="243dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.58"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.231"
-        app:srcCompat="@drawable/lomba" />
-
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="288dp"
-        android:layout_height="184dp"
-        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_width="0dp"
+        android:layout_height="250dp"
+        android:scaleType="centerCrop"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.675"
-        app:srcCompat="@drawable/piala" />
-
-    <ImageView
-        android:id="@+id/imageView2"
-        android:layout_width="225dp"
-        android:layout_height="219dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.01"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.666"
-        app:srcCompat="@drawable/juara" />
+        tools:srcCompat="@tools:sample/backgrounds/scenic" />
 
     <TextView
-        android:id="@+id/textView16"
-        android:layout_width="415dp"
-        android:layout_height="146dp"
-        android:text=" prestasi adalah sebagai hasil usaha atau bukti bahwa usaha yang dicapai peserta didik dalam belajar di sekolah atau setelah peserta didik tersebut mengikuti kegiatan belajar mengajar yang diberikan oleh guru di sekolah, secara aktif."
-        android:textSize="18dp"
-        android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="parent"
+        android:id="@+id/textView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:text="TextView"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.973" />
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

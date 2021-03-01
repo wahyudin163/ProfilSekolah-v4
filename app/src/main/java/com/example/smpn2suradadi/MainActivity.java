@@ -39,17 +39,16 @@ public class MainActivity extends AppCompatActivity {
         startActivity(intent);
     }
 
-
+    public void prestasi(View view){
+        Intent intent=new Intent(MainActivity.this, PrestasiActivity.class);
+        startActivity(intent);
+    }
 
     public void eskul(View view) {
         Intent intent = new Intent(MainActivity.this, EskulActivity.class);
         startActivity(intent);
     }
 
-    public void prestasi(View view) {
-        Intent intent = new Intent(MainActivity.this, PrestasiActivity.class);
-        startActivity(intent);
-    }
     public void informasi(View view) {
         Intent intent = new Intent(MainActivity.this, InformasiActivity.class);
         startActivity(intent);
